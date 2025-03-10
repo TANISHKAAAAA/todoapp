@@ -11,3 +11,4 @@ import java.util.List;
 public interface TodoRepository extends JpaRepository<TodoItem,Long> {
     List<TodoItem> findByUser(User user);
 }
+// sma
